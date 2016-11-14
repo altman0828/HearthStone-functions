@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41AD2664-C9DB-F84B-A885-6EF0FD55B50C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>Assets\Hearthstone_Data\Managed\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Assets\Hearthstone_Data\Managed\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Assets\Hearthstone_Data\Managed\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Hearthstone_Data\Managed\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Assets\Hearthstone_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="IFacebook">
+      <HintPath>Assets\Hearthstone_Data\Managed\IFacebook.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>Assets\Hearthstone_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>Assets\Hearthstone_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="ConditionalExpression">
+      <HintPath>Assets\Hearthstone_Data\Managed\ConditionalExpression.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>Assets\Hearthstone_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>Assets\Hearthstone_Data\Managed\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Assets\Hearthstone_Data\Managed\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>Assets\Hearthstone_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>Assets\Hearthstone_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Hearthstone_Data\Managed\Assembly-CSharp-firstpass.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ConnectLog.txt" />
+    <None Include="Assets\DBF\ACCOUNT_LICENSE.xml" />
+    <None Include="Assets\DBF\ACHIEVE.xml" />
+    <None Include="Assets\DBF\ADVENTURE.xml" />
+    <None Include="Assets\DBF\ADVENTURE_DATA.xml" />
+    <None Include="Assets\DBF\ADVENTURE_MISSION.xml" />
+    <None Include="Assets\DBF\ADVENTURE_MODE.xml" />
+    <None Include="Assets\DBF\BANNER.xml" />
+    <None Include="Assets\DBF\BOARD.xml" />
+    <None Include="Assets\DBF\BOOSTER.xml" />
+    <None Include="Assets\DBF\CARD.xml" />
+    <None Include="Assets\DBF\CARD_BACK.xml" />
+    <None Include="Assets\DBF\DECK.xml" />
+    <None Include="Assets\DBF\DECK_CARD.xml" />
+    <None Include="Assets\DBF\DECK_RULESET.xml" />
+    <None Include="Assets\DBF\DECK_RULESET_RULE.xml" />
+    <None Include="Assets\DBF\DECK_RULESET_RULE_SUBSET.xml" />
+    <None Include="Assets\DBF\DECK_TEMPLATE.xml" />
+    <None Include="Assets\DBF\FIXED_REWARD.xml" />
+    <None Include="Assets\DBF\FIXED_REWARD_ACTION.xml" />
+    <None Include="Assets\DBF\FIXED_REWARD_MAP.xml" />
+    <None Include="Assets\DBF\HERO.xml" />
+    <None Include="Assets\DBF\HIDDEN_LICENSE.xml" />
+    <None Include="Assets\DBF\ROTATED_ITEM.xml" />
+    <None Include="Assets\DBF\SCENARIO.xml" />
+    <None Include="Assets\DBF\SCORE_LABEL.xml" />
+    <None Include="Assets\DBF\SEASON.xml" />
+    <None Include="Assets\DBF\SUBSET.xml" />
+    <None Include="Assets\DBF\SUBSET_CARD.xml" />
+    <None Include="Assets\DBF\WING.xml" />
+    <None Include="Assets\Hearthstone_Data\Mono\etc\mono\mconfig\config.xml" />
+    <None Include="Assets\Hearthstone_Data\output_log.txt" />
+    <None Include="Assets\Strings\deDE\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\deDE\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\deDE\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\deDE\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\deDE\GLOBAL.txt" />
+    <None Include="Assets\Strings\deDE\GLUE.txt" />
+    <None Include="Assets\Strings\deDE\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\deDE\PRESENCE.txt" />
+    <None Include="Assets\Strings\deDE\TUTORIAL.txt" />
+    <None Include="Assets\Strings\deDE\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\enUS\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\enUS\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\enUS\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\enUS\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\enUS\GLOBAL.txt" />
+    <None Include="Assets\Strings\enUS\GLUE.txt" />
+    <None Include="Assets\Strings\enUS\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\enUS\PRESENCE.txt" />
+    <None Include="Assets\Strings\enUS\TUTORIAL.txt" />
+    <None Include="Assets\Strings\enUS\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\esES\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\esES\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\esES\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\esES\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\esES\GLOBAL.txt" />
+    <None Include="Assets\Strings\esES\GLUE.txt" />
+    <None Include="Assets\Strings\esES\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\esES\PRESENCE.txt" />
+    <None Include="Assets\Strings\esES\TUTORIAL.txt" />
+    <None Include="Assets\Strings\esES\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\esMX\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\esMX\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\esMX\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\esMX\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\esMX\GLOBAL.txt" />
+    <None Include="Assets\Strings\esMX\GLUE.txt" />
+    <None Include="Assets\Strings\esMX\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\esMX\PRESENCE.txt" />
+    <None Include="Assets\Strings\esMX\TUTORIAL.txt" />
+    <None Include="Assets\Strings\esMX\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\frFR\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\frFR\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\frFR\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\frFR\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\frFR\GLOBAL.txt" />
+    <None Include="Assets\Strings\frFR\GLUE.txt" />
+    <None Include="Assets\Strings\frFR\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\frFR\PRESENCE.txt" />
+    <None Include="Assets\Strings\frFR\TUTORIAL.txt" />
+    <None Include="Assets\Strings\frFR\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\itIT\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\itIT\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\itIT\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\itIT\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\itIT\GLOBAL.txt" />
+    <None Include="Assets\Strings\itIT\GLUE.txt" />
+    <None Include="Assets\Strings\itIT\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\itIT\PRESENCE.txt" />
+    <None Include="Assets\Strings\itIT\TUTORIAL.txt" />
+    <None Include="Assets\Strings\itIT\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\koKR\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\koKR\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\koKR\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\koKR\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\koKR\GLOBAL.txt" />
+    <None Include="Assets\Strings\koKR\GLUE.txt" />
+    <None Include="Assets\Strings\koKR\MISSION.txt" />
+    <None Include="Assets\Strings\koKR\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\koKR\PRESENCE.txt" />
+    <None Include="Assets\Strings\koKR\TUTORIAL.txt" />
+    <None Include="Assets\Strings\koKR\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\plPL\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\plPL\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\plPL\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\plPL\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\plPL\GLOBAL.txt" />
+    <None Include="Assets\Strings\plPL\GLUE.txt" />
+    <None Include="Assets\Strings\plPL\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\plPL\PRESENCE.txt" />
+    <None Include="Assets\Strings\plPL\TUTORIAL.txt" />
+    <None Include="Assets\Strings\plPL\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\ptBR\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\ptBR\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\ptBR\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\ptBR\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\ptBR\GLOBAL.txt" />
+    <None Include="Assets\Strings\ptBR\GLUE.txt" />
+    <None Include="Assets\Strings\ptBR\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\ptBR\PRESENCE.txt" />
+    <None Include="Assets\Strings\ptBR\TUTORIAL.txt" />
+    <None Include="Assets\Strings\ptBR\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\ruRU\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\ruRU\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\ruRU\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\ruRU\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\ruRU\GLOBAL.txt" />
+    <None Include="Assets\Strings\ruRU\GLUE.txt" />
+    <None Include="Assets\Strings\ruRU\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\ruRU\PRESENCE.txt" />
+    <None Include="Assets\Strings\ruRU\TUTORIAL.txt" />
+    <None Include="Assets\Strings\ruRU\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\zhCN\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\zhCN\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\zhCN\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\zhCN\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\zhCN\GLOBAL.txt" />
+    <None Include="Assets\Strings\zhCN\GLUE.txt" />
+    <None Include="Assets\Strings\zhCN\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\zhCN\PRESENCE.txt" />
+    <None Include="Assets\Strings\zhCN\TUTORIAL.txt" />
+    <None Include="Assets\Strings\zhCN\TUTORIAL_AUDIO.txt" />
+    <None Include="Assets\Strings\zhTW\CREDITS_2014.txt" />
+    <None Include="Assets\Strings\zhTW\CREDITS_2015.txt" />
+    <None Include="Assets\Strings\zhTW\GAMEPLAY.txt" />
+    <None Include="Assets\Strings\zhTW\GAMEPLAY_AUDIO.txt" />
+    <None Include="Assets\Strings\zhTW\GLOBAL.txt" />
+    <None Include="Assets\Strings\zhTW\GLUE.txt" />
+    <None Include="Assets\Strings\zhTW\MISSION_AUDIO.txt" />
+    <None Include="Assets\Strings\zhTW\PRESENCE.txt" />
+    <None Include="Assets\Strings\zhTW\TUTORIAL.txt" />
+    <None Include="Assets\Strings\zhTW\TUTORIAL_AUDIO.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
